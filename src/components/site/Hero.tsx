@@ -17,16 +17,16 @@ export function Hero() {
         height={1280}
         className="absolute inset-0 size-full object-cover object-center"
       />
-      <div className="absolute inset-0 bg-navy-deep/85" />
+      <div className="absolute inset-0 bg-navy-deep/55" />
       <div
         className="absolute inset-0"
         style={{
           background:
-            "linear-gradient(100deg, var(--navy-deep) 8%, color-mix(in oklab, var(--navy) 78%, transparent) 55%, color-mix(in oklab, var(--navy-deep) 55%, transparent) 100%)",
+            "linear-gradient(100deg, var(--navy-deep) 4%, color-mix(in oklab, var(--navy-deep) 82%, transparent) 42%, color-mix(in oklab, var(--navy-deep) 25%, transparent) 100%)",
         }}
       />
 
-      <div className="relative mx-auto w-full max-w-[1400px] px-5 pt-36 pb-14 lg:px-10">
+      <div className="relative mx-auto flex w-full max-w-[1400px] flex-1 flex-col justify-center px-5 pt-36 pb-20 lg:px-10">
         <motion.div
           initial={{ opacity: 0, y: 28 }}
           animate={{ opacity: 1, y: 0 }}
