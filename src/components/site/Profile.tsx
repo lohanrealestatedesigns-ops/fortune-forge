@@ -42,9 +42,9 @@ export function Profile() {
             <p className="text-[0.66rem] font-semibold tracking-[0.28em] text-slate uppercase">
               Core Values
             </p>
-            <ul className="mt-6 grid grid-cols-1 gap-px bg-border sm:grid-cols-2">
+            <ul className="mt-6 grid grid-cols-1 sm:grid-cols-2">
               {values.map((v, i) => (
-                <li key={v} className="flex items-baseline gap-4 bg-background px-1 py-4">
+                <li key={v} className="flex items-baseline gap-4 border-b border-border py-4 pr-6">
                   <span className="font-mono text-[0.7rem] text-bronze">
                     {String(i + 1).padStart(2, "0")}
                   </span>

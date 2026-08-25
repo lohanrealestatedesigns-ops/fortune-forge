@@ -17,12 +17,12 @@ export function Hero() {
         height={1280}
         className="absolute inset-0 size-full object-cover object-center"
       />
-      <div className="absolute inset-0 bg-navy-deep/55" />
+      <div className="absolute inset-0 bg-navy-deep/30" />
       <div
         className="absolute inset-0"
         style={{
           background:
-            "linear-gradient(100deg, var(--navy-deep) 4%, color-mix(in oklab, var(--navy-deep) 82%, transparent) 42%, color-mix(in oklab, var(--navy-deep) 25%, transparent) 100%)",
+            "linear-gradient(100deg, var(--navy-deep) 4%, color-mix(in oklab, var(--navy-deep) 80%, transparent) 38%, color-mix(in oklab, var(--navy-deep) 8%, transparent) 100%)",
         }}
       />
 
